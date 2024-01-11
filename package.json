@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "vercel-dashboard-mba",
+  "version": "0.1.0",
+  "scripts": {
+    "generate": "zapp generate",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.2.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.2",
+    "@types/node": "^18.7.10",
+    "@zappjs/cli": "^2.3.0",
+    "@zappjs/core": "^2.2.0",
+    "@zappjs/git": "^0.1.5",
+    "@zappjs/json": "^0.2.1",
+    "@zappjs/license": "^0.1.2",
+    "@zappjs/toml": "^0.1.1",
+    "sharp": "^0.33.1",
+    "typescript": "^4.6.4"
+  }
+}
